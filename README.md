@@ -60,4 +60,13 @@ Enemies spawn at the top of the screen and move down. Once it reaches the bottom
 * Invulnerable shield and unique battle phases.
 
 ## Screenshots from Game
-![Game Screenshot](imgs/boss_battle.png)
+
+| ![Game Screen](imgs/game-screen.png)          | ![Boss Battle](imgs/boss-battle.png)            | ![Game Complete](imgs/game-complete.png)            |
+|----------------------------------------------|----------------------------------------------|--------------------------------------------------|
+| *Game Screen*                                | *Boss Battle*                                | *Game Complete*                                  |
+
+| ![Starting Screen](imgs/starting-screen.png) | ![Rules Screen](imgs/rules-screen.png)       | ![Leaderboard Screen](imgs/leaderboards-screen.png) |
+|----------------------------------------------|----------------------------------------------|------------------------------------------------------|
+| *Starting Screen*                            | *Rules Screen*                              | *Leaderboard Screen*                               |
+
+
