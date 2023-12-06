@@ -58,3 +58,6 @@ Enemies spawn at the top of the screen and move down. Once it reaches the bottom
 #### Dreadnought (Boss)
 * Health: 100
 * Invulnerable shield and unique battle phases.
+
+## Screenshots from Game
+![Game Screenshot](imgs/boss_battle.png)
