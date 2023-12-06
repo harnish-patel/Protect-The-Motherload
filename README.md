@@ -1,5 +1,24 @@
 # Protect-The-Motherload
 
+# Table of Contents
+
+1. [Overview](#overview)
+2. [Video Demo](#video-demo)
+3. [Gameplay](#gameplay)
+   1. [Objective](#objective)
+   2. [Health](#health)
+   3. [Scoring](#scoring)
+   4. [Level Progression](#level-progression)
+   5. [Powerups](#powerups)
+4. [Characters](#characters)
+   1. [Player](#player)
+   2. [Enemies](#enemies)
+      1. [Scout](#scout)
+      2. [Fighter](#fighter)
+      3. [Commando](#commando)
+      4. [Dreadnought (Boss)](#dreadnought-boss)
+5. [Screenshots from Game](#screenshots-from-game)
+
 ## Overview
 Protect the Motherload is ashoot'em up game set in the year 2100 where players control the Star Sentinel battleship to defend against space pirates attempting to steal the valuable resource onboard. The game features intense space battles, challenging enemies, and an epic final boss battle.
 
@@ -7,8 +26,6 @@ Protect the Motherload is ashoot'em up game set in the year 2100 where players c
 Click the image below to check out a video demo of the game!
 
 [![Game Demo](https://img.youtube.com/vi/np2RdrUV0KU/0.jpg)](https://youtu.be/np2RdrUV0KU)
-
-
 
 
 ## Gameplay
