@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2472454744053654250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2472454744053654249}
+  - component: {fileID: 2472454744053654248}
+  - component: {fileID: 2472454744053654251}
+  - component: {fileID: 2472454744053654246}
+  - component: {fileID: 3626577713588405764}
+  m_Layer: 8
+  m_Name: Asteroid
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2472454744053654249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2472454744053654250}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.92, y: 5.56, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2472454744053654248
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2472454744053654250}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 551171635
+  m_SortingLayer: 2
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: a4a458af0968c31439c4286c1a5a25b6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2, y: 2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &2472454744053654251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2472454744053654250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95da4bed831a6ea419dea768a249a3b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isRotating: 1
+  rotateSpeed: 25
+  moveSpeed: 1
+--- !u!60 &2472454744053654246
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2472454744053654250}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 2, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.020873705, y: 0.3373294}
+      - {x: -0.19591361, y: 0.33838892}
+      - {x: -0.2690078, y: 0.2958622}
+      - {x: -0.3545972, y: 0.20828915}
+      - {x: -0.37438142, y: 0.1695261}
+      - {x: -0.39726162, y: 0.10413599}
+      - {x: -0.39725745, y: -0.12086487}
+      - {x: -0.37636304, y: -0.18685532}
+      - {x: -0.269845, y: -0.29146338}
+      - {x: -0.23127854, y: -0.31442484}
+      - {x: -0.12354104, y: -0.35894808}
+      - {x: 0.1258539, y: -0.35211372}
+      - {x: 0.18774828, y: -0.33547577}
+      - {x: 0.22989988, y: -0.31061888}
+      - {x: 0.33284712, y: -0.21210337}
+      - {x: 0.3581952, y: -0.16345692}
+      - {x: 0.39590192, y: -0.06095934}
+      - {x: 0.395864, y: -0.0027956963}
+      - {x: 0.35860682, y: 0.080898285}
+      - {x: 0.27201724, y: 0.16095543}
+      - {x: 0.19129407, y: 0.20641582}
+      - {x: 0.064255685, y: 0.31388554}
+--- !u!114 &3626577713588405764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2472454744053654250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36c32710ae86b8f4b977a8996669d98f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 0
+  canShoot: 0
+  shot: {fileID: 0}
+  laserLocation: {fileID: 0}
+  shotDelay: 0
+  health: 1
+  deathAnim: {fileID: 1877097754021815972, guid: 5eb95636185309645bf83773183a463d, type: 3}
+  shieldDrop: {fileID: 1135797503493155186, guid: 6ed91b5ce61af3b4abeee46beedee0fc, type: 3}
+  overdriveDrop: {fileID: 4600133188362227674, guid: 2370fd91e43af8649a705525f1d303f3, type: 3}
+  frenzyDrop: {fileID: 4652075635696950071, guid: d155662ef83805f498a520eebfa91a11, type: 3}
+  healthDrop: {fileID: 5419981128051983653, guid: 9d25043aea2b2c8459a11a80e4c78c3e, type: 3}
+  dropProbability: 1
+  isInvinsible: 0
+  moveDiagonal: 0
+  movingRight: 1
+  isAsteroid: 1

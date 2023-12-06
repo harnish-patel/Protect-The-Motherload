@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Enemy1
+  - Enemy2
+  - Enemy3
+  - DestroyableObjects
+  - Boss
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - PlayerLaser
+  - Enemy
+  - EnemyLaser
+  - Pickup
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BG
+    uniqueID: 1906130201
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Space Objects
+    uniqueID: 2996819405
+    locked: 0
+  - name: Enemies
+    uniqueID: 551171635
+    locked: 0
+  - name: Weapons
+    uniqueID: 1965256055
+    locked: 0
+  - name: Player
+    uniqueID: 3759443759
+    locked: 0
