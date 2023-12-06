@@ -6,7 +6,7 @@ Protect the Motherload is ashoot'em up game set in the year 2100 where players c
 ## Video Demo
 Click the image below to check out a video demo of the game!
 
-[![Game Demo](https://img.youtube.com/vi/np2RdrUV0KU/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
+[![Game Demo](https://img.youtube.com/vi/np2RdrUV0KU/0.jpg)](https://youtu.be/np2RdrUV0KU)
 
 
 
