@@ -4,9 +4,10 @@
 Protect the Motherload is ashoot'em up game set in the year 2100 where players control the Star Sentinel battleship to defend against space pirates attempting to steal the valuable resource onboard. The game features intense space battles, challenging enemies, and an epic final boss battle.
 
 ## Video Demo
-Click the link below to check out a video demo of the game!
+Click the image below to check out a video demo of the game!
 
-[![Game Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
+[![Game Demo](https://img.youtube.com/vi/np2RdrUV0KU/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
+
 
 
 
